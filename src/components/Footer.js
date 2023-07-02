@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer">
         <div className="block">Created by: Cam Emerick</div>
         <div className="block">
-          <a href="https://github.com/Tevarian?tab=repositories">
+          <a href="https://github.com/Tevarian/Week-16-React_Router_and_React_Bootstrap/tree/main">
             <GitHub className="git" fontSize="large" color="primary"></GitHub>
           </a>
         </div>
