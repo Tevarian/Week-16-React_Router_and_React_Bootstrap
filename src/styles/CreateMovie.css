@@ -1,0 +1,12 @@
+.text-entry {
+  color: white;
+}
+
+.review-entry {
+  color: white;
+}
+
+.rating-entry {
+  display: flex;
+  justify-content: left;
+}

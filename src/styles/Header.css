@@ -1,0 +1,18 @@
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.headerText {
+  padding-right: 2rem;
+  text-align: left;
+}
+
+.headerPic {
+  width: 40vw;
+  border-radius: 1rem;
+  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.5));
+}

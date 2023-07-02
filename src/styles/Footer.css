@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
+  padding: 1rem;
+}
+
+.block {
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-align: left;
+  line-height: 2rem;
+  color: aliceblue;
+  padding: 1rem 1rem 0.25rem 1rem;
+  margin-right: 0.75rem;
+}
+
+.git {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.git:hover {
+  filter: drop-shadow(0 0 1rem rgb(25, 118, 210));
+}
