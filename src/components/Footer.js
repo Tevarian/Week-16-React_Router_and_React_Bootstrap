@@ -1,4 +1,5 @@
 import React from "react";
+import Disclaimer from "./Disclaimer";
 import "../styles/Footer.css";
 import { GitHub } from "@mui/icons-material/";
 
@@ -14,10 +15,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <h5>
-        These movie reviews are totally fake, dudes and dudettes. All
-        information now belongs to us™©®
-      </h5>
+      <Disclaimer />
     </>
   );
 };
