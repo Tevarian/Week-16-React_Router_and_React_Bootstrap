@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import Home from "./components/Home";
 import Links from "./components/Links";
 import About from "./components/About";
@@ -29,6 +30,9 @@ function App() {
         </div>
         <div>
           <Switch>
+            <Route exact path="/">
+              <Redirect to="/home" />
+            </Route>
             <Route path="/home">
               <Home />
             </Route>
